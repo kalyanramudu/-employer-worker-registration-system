@@ -20,8 +20,8 @@ public class DataBase {
 		try {
 			
 			// "jdbc:database://host:port/database-name", "user-name", "password"
-			conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/db",
-					"postgres", "cbZ!");
+			conn = DriverManager.getConnection("jdbc:database://postgresql.cy65mtifdsxb.us-east-1.rds.amazonaws.com:5432/rdsdb",
+					"postgres", "kalyanram");
 			
 		} catch (SQLException e) {
 			
